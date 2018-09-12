@@ -25,6 +25,10 @@ defaults:
     values:
       layout: "post"
 
+collections:
+  recipes:
+    output: true
+
 # Plugins
 plugins:
   - jekyll-paginate
