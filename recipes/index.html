@@ -1,0 +1,19 @@
+---
+title: recipes
+description: or you could always just get a deliveroo
+layout: page
+---
+<nav class="posts">
+    <dl>
+        {% for recipe in site.recipes %}
+            <dt><a href="{{ recipe.url }}">{{ recipe.title }}</a></dt>
+            <dd>{{ recipe.description }}</dd>
+        {% endfor %}
+    </dl>
+</nav>
+
+<h3>Looky here</h3>
+<ul>
+    <li><a href="https://www.bbcgoodfood.com">BBC Good Food</a></li>
+    <li><a href="https://foodconverter.com">Conversion Calculator</a></li>
+</ul>

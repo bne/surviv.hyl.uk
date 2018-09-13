@@ -2,3 +2,53 @@
 
 // -- Put custom style under this point -- //
 
+h2 {
+    margin-bottom: .5em;
+    font-weight: normal;
+    text-transform: lowercase;
+    span {
+        color: $text-light-color;
+        font-size: 0.4em;
+        vertical-align: middle;
+        &::before {
+            content: "(";
+        }
+        &::after {
+            content: ")";
+        }
+        @media(max-width: 940px) {
+            line-height: 1em;
+            display: block;
+        }
+    }
+    a {
+        color: $text-light-color;
+        font-weight: normal;
+    }
+}
+
+#content h2 {
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+dl {
+    dd {
+        margin-left: 1em;
+    }
+}
+
+article #content {
+    a {
+        text-decoration: underline;
+        font-weight: normal;
+        color: #000033
+    }
+}
+
+.pa-image-gallery {
+    background-color: #fff !important;
+}

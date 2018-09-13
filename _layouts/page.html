@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
-<article id="page">
-	
-  {{ content }}
-
+<article>
+	<h2>
+		{{ page.title }}
+		<span>{{ page.description }}</span>
+	</h2>
+	<div id="content">
+		{{ content }}
+	</div>
 </article>

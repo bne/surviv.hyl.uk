@@ -16,18 +16,10 @@ permalink: /:title
 paginate: 8
 paginate_path: /page:num/
 
-# Default values
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
 collections:
   recipes:
     output: true
+    permalink: /:collection/:path/index.html
 
 # Plugins
 plugins:
@@ -35,7 +27,7 @@ plugins:
   - jekyll-sitemap
 
 # Custom variables
-version: "1.0.0"
+version: "1.0.1"
 
 # Options
 custom_header: false
