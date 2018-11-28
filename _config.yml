@@ -33,3 +33,8 @@ version: "1.0.1"
 custom_header: false
 custom_nav_footer: false
 reverse: false
+
+exclude:
+  - docker-compose.yml
+  - LICENSE
+  - README.md

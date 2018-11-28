@@ -13,7 +13,7 @@ If you're taking these camping, wrap them individually in a double layer of silv
 ### Ingredients
 
 - 3 medium potatoes in 1cm cubes
-- 1 tin of beans, drain off some of the juice, but reserve it
+- 1 tin of beans - drain off some of the juice, but reserve it
 - bunch of spring onions chopped
 - 150g cheese
 - 1 pack sausages
