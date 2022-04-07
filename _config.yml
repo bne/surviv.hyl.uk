@@ -12,14 +12,13 @@ baseurl:
 markdown: kramdown
 source: .
 destination: ./_site
-permalink: /:title
+permalink: pretty
 paginate: 8
 paginate_path: /page:num/
 
 collections:
   recipes:
     output: true
-    permalink: /:collection/:path/index.html
 
 # Plugins
 plugins:
